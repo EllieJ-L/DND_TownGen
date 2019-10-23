@@ -1,6 +1,7 @@
 package com.company;
 
 import javafx.stage.WindowEvent;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -110,7 +111,7 @@ public class Main {
         String vibe = "";
         //find vibe
         if(feel == 1) {
-            vibe = "Desprate";
+            vibe = "Desperate";
         }
         else if(feel == 2) {
             vibe = "Unfriendly";
@@ -137,7 +138,7 @@ public class Main {
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probbably best to avoid...");
+                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
                 System.out.println("Few people out. Those that are are staring.");
@@ -154,7 +155,7 @@ public class Main {
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probbably best to avoid...");
+                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
                 System.out.println("Some people in street. Many staring.");
@@ -171,7 +172,7 @@ public class Main {
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probbably best to avoid...");
+                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
                 System.out.println("Some people in street. A few staring.");
@@ -188,7 +189,7 @@ public class Main {
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probbably best to avoid...");
+                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
                 System.out.println("Quite a few people in street. Not very many pay you any mind.");
@@ -205,7 +206,7 @@ public class Main {
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probbably best to avoid...");
+                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
                 System.out.println("Many people in street. None seem to see you.");
@@ -222,7 +223,7 @@ public class Main {
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probbably best to avoid...");
+                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
                 System.out.println("Lots of people in street. No one notices you.");
