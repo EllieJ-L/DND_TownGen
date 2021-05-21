@@ -1,7 +1,5 @@
 package com.company;
 
-import javafx.stage.WindowEvent;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
