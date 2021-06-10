@@ -99,7 +99,7 @@ public class Main {
             pack();
         }
     }
-    public static void main(String[] a) throws IOException {
+     public static void main(String[] a) throws IOException {
         String[] tempsArray = temps.toArray(new String[50]);
         String names = tempsArray[rnd];
 
