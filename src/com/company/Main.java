@@ -163,13 +163,13 @@ public class Main {
         else if(population <= 2500 && population >= 1001) {
             System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
             //town details
-            if(rnd >= 48) {
+            if(rnd >= 50) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... (any small and/or medium sized pc's take 1 damage per action.)");
                 }
             }
-            else if (rnd <= 47 && rnd >= 38) {
+            else if (rnd <= 49 && rnd >= 38) {
                 System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
