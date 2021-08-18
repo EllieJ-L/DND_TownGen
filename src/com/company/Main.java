@@ -103,7 +103,6 @@ public class Main {
         String[] tempsArray = temps.toArray(new String[50]);
         String names = tempsArray[rnd];
 
-        Scanner in = new Scanner(System.in);
         int population = (int)(Math.random() * ((25000 - 100) + 1)) + 1; //find population
         int feel = (int)(Math.random() * ((5 - 1) + 1)) + 1; //vibe num
         String vibe = "";
