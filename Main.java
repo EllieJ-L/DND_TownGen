@@ -119,112 +119,112 @@ public class Main {
             vibe = "Suspiciously welcoming... they're too nice.";
         }
         //print basic town details
-        System.out.println("\n⠀\n⠀\n⠀\n⠀\n⠀\n⠀\n⠀" + names + "\nPopulation: " + population + "\nVibe: " + vibe);
+        System.out.print("\n‎\n‎\n‎\n‎\n‎\n‎\n‎\n‎" + names + "\nPopulation: " + population + "\nVibe: " + vibe);
         //print inn details
         if(population <= 250) {
-            System.out.println("Inn D/C: 18 \nInn Cost(if found): 6 SP/Night");
+            System.out.print("\nInn D/C: 18 \nInn Cost(if found): 6 SP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
+                System.out.print("\nParade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Probably some sort of a cult.");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
+                System.out.print("\nParty in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
-                System.out.println("Few people out. Those that are are staring.");
+                System.out.print("\nFew people out. Those that are are staring.");
             }
             new Grids(250, 250, 25, 25).setVisible(true);
         }
         else if(population <= 1000 && population >= 251) {
-            System.out.println("Inn D/C: 15 \nInn Cost(if found): 8 SP/Night");
+            System.out.print("\nInn D/C: 15 \nInn Cost(if found): 8 SP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
+                System.out.print("\nParade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Probably a cult of some sort.");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
+                System.out.print("\nParty in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
-                System.out.println("Some people in street. Many staring.");
+                System.out.print("\nSome people in street. Many staring.");
             }
             new Grids(250, 250, 25, 25).setVisible(true);
         }
         else if(population <= 2500 && population >= 1001) {
-            System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
+            System.out.print("\nInn D/C: 15 \nInn Cost(if found): 1 GP/Night");
             //town details
             if(rnd >= 49) {
-                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
+                System.out.print("\nParade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It seems quite violent though... Maybe some sort of cult?");
                 }
             }
             else if (rnd < 49 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
+                System.out.print("\nParty in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
-                System.out.println("Some people in street. A few staring.");
+                System.out.print("\nSome people in street. A few staring.");
             }
             new Grids(400, 400, 30, 30).setVisible(true);
         }
         else if(population <= 5000 && population >= 2501) {
-            System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
+            System.out.print("\nInn D/C: 15 \nInn Cost(if found): 1 GP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
+                System.out.print("\nParade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Maybe some sort of cult?");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
+                System.out.print("\nParty in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
-                System.out.println("Quite a few people in street. Not very many pay you any mind.");
+                System.out.print("\nQuite a few people in street. Not very many pay you any mind.");
             }
             new Grids(600, 600, 50, 50).setVisible(true);
         }
         else if(population <= 10000 && population >= 5001) {
-            System.out.println("Inn D/C: 12 \nInn Cost(if found): 1 GP/Night/Night");
+            System.out.print("\nInn D/C: 12 \nInn Cost(if found): 1 GP/Night/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
+                System.out.print("\nParade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Maybe some sort of a cult?");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
+                System.out.print("\nParty in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
-                System.out.println("Many people in street. None seem to see you.");
+                System.out.print("\nMany people in street. None seem to see you.");
             }
             new Grids(720, 660, 60, 60).setVisible(true);
         }
         else if(population >= 10001) {
-            System.out.println("Inn D/C: 10 \nInn Cost(if found): 1 GP/Night");
+            System.out.print("\nInn D/C: 10 \nInn Cost(if found): 1 GP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
+                System.out.print("\nParade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Maybe a cult? or a witch trial...");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
-                System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
+                System.out.print("\nParty in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
-                System.out.println("Lots of people in street. No one notices you.");
+                System.out.print("\nLots of people in street. No one notices you.");
             }
             new Grids(750, 675, 75, 75).setVisible(true);
         }
         else {
-            System.out.println("Error");
+            System.out.print("\nError");
         }
     }
 }
