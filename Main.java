@@ -119,7 +119,7 @@ public class Main {
             vibe = "Suspiciously welcoming... they're too nice.";
         }
         //print basic town details
-        System.out.println(names + "\nPopulation: " + population + "\nVibe: " + vibe); //print vibe
+        System.out.println("\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  " + names + "\nPopulation: " + population + "\nVibe: " + vibe);
         //print inn details
         if(population <= 250) {
             System.out.println("Inn D/C: 18 \nInn Cost(if found): 6 SP/Night");
