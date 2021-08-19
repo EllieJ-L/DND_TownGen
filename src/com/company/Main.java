@@ -131,7 +131,7 @@ public class Main {
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
-                    System.out.print("It is quite violent though... (any small and/or medium sized pc's take 1 damage per 2 actions.)");
+                    System.out.print("It is quite violent though... Probably some sort of a cult.");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
@@ -148,7 +148,7 @@ public class Main {
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
-                    System.out.print("It is quite violent though... (any small and/or medium sized pc's take 1 damage per action.)");
+                    System.out.print("It is quite violent though... Probably a cult of some sort.");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
@@ -165,7 +165,7 @@ public class Main {
             if(rnd >= 50) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
-                    System.out.print("It is quite violent though... (any small and/or medium sized pc's take 1 damage per action.)");
+                    System.out.print("It seems quite violent though... Maybe some sort of cult?");
                 }
             }
             else if (rnd <= 49 && rnd >= 38) {
@@ -182,7 +182,7 @@ public class Main {
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
-                    System.out.print("It is quite violent though... (any small and/or medium sized pc's take 2 damage per action.)");
+                    System.out.print("It is quite violent though... Maybe some sort of cult?");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
@@ -199,7 +199,7 @@ public class Main {
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
-                    System.out.print("It is quite violent though... (any small and/or medium sized pc's take 2 damage per action.)");
+                    System.out.print("It is quite violent though... Maybe some sort of a cult?");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
@@ -216,7 +216,7 @@ public class Main {
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
                 if (feel == 2) {
-                    System.out.print("It is quite violent though... (any small and/or medium sized pc's take 2 damage per action.)");
+                    System.out.print("It is quite violent though... Maybe a cult? or a witch trial...");
                 }
             }
             else if (rnd <= 47 && rnd >= 38) {
