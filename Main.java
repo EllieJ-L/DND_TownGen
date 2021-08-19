@@ -1,5 +1,3 @@
-package com.company;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -119,7 +117,7 @@ public class Main {
             vibe = "Suspiciously welcoming... they're too nice.";
         }
         //print basic town details
-        System.out.print('\n�\n!' + names + "\nPopulation: " + population + "\nVibe: " + vibe);
+        System.out.print("\nhi" + names + "\nPopulation: " + population + "\nVibe: " + vibe);
         //print inn details
         if(population <= 250) {
             System.out.print("\nInn D/C: 18 \nInn Cost(if found): 6 SP/Night");
