@@ -129,7 +129,7 @@ public class Main {
             System.out.println("Inn D/C: 18 \nInn Cost(if found): 5 SP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
+                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Probably some sort of a cult.");
                 }
@@ -146,7 +146,7 @@ public class Main {
             System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
+                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Probably a cult of some sort.");
                 }
@@ -162,13 +162,13 @@ public class Main {
         else if(population <= 2500 && population >= 1001) {
             System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
             //town details
-            if(rnd >= 50) {
-                System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
+            if(rnd >= 49) {
+                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It seems quite violent though... Maybe some sort of cult?");
                 }
             }
-            else if (rnd <= 49 && rnd >= 38) {
+            else if (rnd < 49 && rnd >= 38) {
                 System.out.println("Party in town center. Sounds of music come from the town square, as well as a tower of smoke. It looks like a burning of some sort. Probably best to avoid...");
             }
             else {
@@ -180,7 +180,7 @@ public class Main {
             System.out.println("Inn D/C: 15 \nInn Cost(if found): 2 GP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
+                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Maybe some sort of cult?");
                 }
@@ -197,7 +197,7 @@ public class Main {
             System.out.println("Inn D/C: 12 \nInn Cost(if found): 2 GP/Night/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
+                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Maybe some sort of a cult?");
                 }
@@ -214,7 +214,7 @@ public class Main {
             System.out.println("Inn D/C: 10 \nInn Cost(if found): 3 GP/Night");
             //town details
             if(rnd >= 48) {
-                System.out.println("Parade happening getting around is slow, but you don't stick out at all.");
+                System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
                 if (feel == 2) {
                     System.out.print("It is quite violent though... Maybe a cult? or a witch trial...");
                 }
