@@ -1,1 +1,1 @@
-powershell -Command "& 'java' '-Dfile.encoding=UTF-8' '-cp' './' 'com.company.Main'"
+powershell -Command "& 'java' '-Dfile.encoding=MUTF-8' '-cp' './' 'com.company.Main'"
