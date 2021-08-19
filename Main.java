@@ -122,7 +122,7 @@ public class Main {
         System.out.println(names + "\nPopulation: " + population + "\nVibe: " + vibe); //print vibe
         //print inn details
         if(population <= 250) {
-            System.out.println("Inn D/C: 18 \nInn Cost(if found): 5 SP/Night");
+            System.out.println("Inn D/C: 18 \nInn Cost(if found): 6 SP/Night");
             //town details
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
@@ -139,7 +139,7 @@ public class Main {
             new Grids(250, 250, 25, 25).setVisible(true);
         }
         else if(population <= 1000 && population >= 251) {
-            System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
+            System.out.println("Inn D/C: 15 \nInn Cost(if found): 8 SP/Night");
             //town details
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
@@ -173,7 +173,7 @@ public class Main {
             new Grids(400, 400, 30, 30).setVisible(true);
         }
         else if(population <= 5000 && population >= 2501) {
-            System.out.println("Inn D/C: 15 \nInn Cost(if found): 2 GP/Night");
+            System.out.println("Inn D/C: 15 \nInn Cost(if found): 1 GP/Night");
             //town details
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
@@ -190,7 +190,7 @@ public class Main {
             new Grids(600, 600, 50, 50).setVisible(true);
         }
         else if(population <= 10000 && population >= 5001) {
-            System.out.println("Inn D/C: 12 \nInn Cost(if found): 2 GP/Night/Night");
+            System.out.println("Inn D/C: 12 \nInn Cost(if found): 1 GP/Night/Night");
             //town details
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
@@ -207,7 +207,7 @@ public class Main {
             new Grids(720, 660, 60, 60).setVisible(true);
         }
         else if(population >= 10001) {
-            System.out.println("Inn D/C: 10 \nInn Cost(if found): 3 GP/Night");
+            System.out.println("Inn D/C: 10 \nInn Cost(if found): 1 GP/Night");
             //town details
             if(rnd >= 48) {
                 System.out.println("Parade happening getting around is slow, and the shops are mostly closed.");
