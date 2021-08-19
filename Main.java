@@ -50,9 +50,10 @@ public class Main {
             rows = r;
             cols = c;
         }
+        private static final String BACKHGROUND_IMAGE_URL = "./images.jpg";
         public void paint(Graphics g) {
             ImageIcon backgroundImage = null;
-            backgroundImage = new ImageIcon(images.jpg);
+            backgroundImage = new ImageIcon(BACKHGROUND_IMAGE_URL);
             super.paint(g);
             g.drawImage(backgroundImage.getImage(), 0, 0, getWidth(), getHeight(), this);
             int i;
@@ -117,7 +118,7 @@ public class Main {
             vibe = "Suspiciously welcoming... they're too nice.";
         }
         //print basic town details
-        System.out.print("\nhi" + names + "\nPopulation: " + population + "\nVibe: " + vibe);
+        System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\n" + names + "\nPopulation: " + population + "\nVibe: " + vibe);
         //print inn details
         if(population <= 250) {
             System.out.print("\nInn D/C: 18 \nInn Cost(if found): 6 SP/Night");
