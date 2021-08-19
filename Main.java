@@ -52,7 +52,6 @@ public class Main {
             rows = r;
             cols = c;
         }
-        private static final String BACKHGROUND_IMAGE_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS4Cm3dVaboywa3suvMp1etMpbBIhXtfEX5_RKEH3usNP78oiqpA";
         public void paint(Graphics g) {
             ImageIcon backgroundImage = null;
             backgroundImage = new ImageIcon(images.jpg);
